@@ -37,7 +37,7 @@ rm -f /www/server/panel/data/bind.pl
 文件路径：`/www/server/panel/data/plugin.json`
 **该文件需要你先进入宝塔的软件商店之后才会生成**
 
-搜索字符串：`"endtime": -1`全部替换为`"endtime": 999999999999`
+搜索字符串：`"endtime": -1`全部替换为`"endtime": 999999999999`  
 `GPT`写的脚本，没试过
 ```
 sed -i 's/"endtime": -1/"endtime": 999999999999/g' /www/server/panel/data/plugin.json
