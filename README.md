@@ -21,7 +21,7 @@ curl -sSO https://raw.githubusercontent.com/xiefengshang/btpanel-v7.7.0/main/ins
 
 **彩虹优化脚本**
 ```Bash
-curl -sSO https://github.com/Xiefengshang/btpanel-v7.7.0/raw/main/scripts/optimize.sh && bash optimize.sh
+curl -sSO https://raw.githubusercontent.com/Xiefengshang/btpanel-v7.7.0/main/scripts/optimize.sh && bash optimize.sh
 ```
 
 # 手动破解：
