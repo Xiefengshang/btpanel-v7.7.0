@@ -54,7 +54,19 @@ sed -i 's/"endtime": -1/"endtime": 999999999999/g' /www/server/panel/data/plugin
 ```
 chattr +i /www/server/panel/data/plugin.json
 ```
-
+5. 净化面板
+下载文件
+```
+wget -O /tmp/bt.zip https://github.com/xiefengshang/btpanel-v7.7.0/raw/main/bt.zip
+```
+解压文件并合并到目标目录 (选A 同意覆盖所有)
+```
+unzip -u /tmp/bt.zip -d /www/server/panel/BTPanel/templates/default
+```
+删除下载的压缩文件（如果需要）
+```
+rm /tmp/bt.zip
+```
 ============================
 
 ！！如需取消屏蔽手机号
