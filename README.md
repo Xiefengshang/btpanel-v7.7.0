@@ -18,6 +18,12 @@ curl -sSO http://d.moe.ms/AAAAA/btpanel-v7.7.0/install/install_panel.sh && bash 
 ```Bash
 curl -sSO https://raw.githubusercontent.com/xiefengshang/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 ```
+
+**彩虹优化脚本**
+```Bash
+curl -sSO https://github.com/Xiefengshang/btpanel-v7.7.0/raw/main/scripts/optimize.sh && bash optimize.sh
+```
+
 # 手动破解：
 
 1，屏蔽手机号
