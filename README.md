@@ -74,3 +74,8 @@ rm /tmp/bt.zip
 ```
 sed -i "s|if (bind_user == 'REMOVED') {|if (bind_user == 'True') {|g" /www/server/panel/BTPanel/static/js/index.js
 ```
+## 解决宝塔面板SSL证书安装失败： Invalid version. The only valid version for X509Req is 0.
+运行如下脚本  
+`sed -i 's/X509Req\.set_version(2)/X509Req\.set_version(0)/' /www/server/panel/class/acme_v2.py`  
+然后重启面板即可  
+`bt restart`
