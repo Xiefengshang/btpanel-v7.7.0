@@ -83,3 +83,12 @@ sed -i 's/X509Req\.set_version(2)/X509Req\.set_version(0)/' /www/server/panel/cl
 ```
 bt restart
 ```
+
+## 页面失效
+提示
+`TypeError: send_file() got an unexpected keyword argument 'add_etags'`  
+运行以下命令即可
+```bash
+
+/www/server/panel/pyenv/bin/pip install -U Flask==2.1.2
+```
