@@ -92,3 +92,9 @@ bt restart
 
 /www/server/panel/pyenv/bin/pip install -U Flask==2.1.2
 ```
+
+## 一键迁移API提示“获取不到对方机器的环境信息”
+
+修改数据发送端以下文件：`/www/server/panel/plugin/psync_api/psync_api_main.py`
+
+将`if ret['status']:`修改为`if ret['status'] ==0:`即可
